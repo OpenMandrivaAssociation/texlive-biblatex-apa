@@ -1,3 +1,9 @@
+# revision 24221
+# category Package
+# catalog-ctan /macros/latex/contrib/biblatex-contrib/biblatex-apa
+# catalog-date 2011-10-06 10:39:42 +0200
+# catalog-license lppl
+# catalog-version 4.0
 Name:		texlive-biblatex-apa
 Version:	4.0
 Release:	1
@@ -60,6 +66,7 @@ of biblatex v1.4 and biber v0.9 (at least).
 %doc %{_texmfdistdir}/doc/latex/biblatex-apa/biblatex-apa-test.tex
 %doc %{_texmfdistdir}/doc/latex/biblatex-apa/biblatex-apa.pdf
 %doc %{_texmfdistdir}/doc/latex/biblatex-apa/biblatex-apa.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -70,3 +77,5 @@ of biblatex v1.4 and biber v0.9 (at least).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
