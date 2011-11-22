@@ -1,11 +1,11 @@
-# revision 24497
+# revision 24597
 # category Package
 # catalog-ctan /macros/latex/contrib/biblatex-contrib/biblatex-apa
-# catalog-date 2011-11-03 09:19:42 +0100
+# catalog-date 2011-11-14 19:03:15 +0100
 # catalog-license lppl
-# catalog-version 4.1
+# catalog-version 4.2
 Name:		texlive-biblatex-apa
-Version:	4.1
+Version:	4.2
 Release:	1
 Summary:	Biblatex citation and reference style for APA
 Group:		Publishing
