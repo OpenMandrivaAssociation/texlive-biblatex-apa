@@ -17,8 +17,6 @@ BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
 Requires(post):	texlive-kpathsea
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
 
 %description
 This is a fairly complete biblatex (v0.9a+) style (citations
@@ -32,20 +30,12 @@ typesets every citation and reference example in the APA 6th
 edition style guide. This version of the package requires use
 of biblatex v1.4 and biber v0.9 (at least).
 
-%pre
-    %_texmf_mktexlsr_pre
-
 %post
-    %_texmf_mktexlsr_post
-
-%preun
-    if [ $1 -eq 0 ]; then
-	%_texmf_mktexlsr_pre
-    fi
+    %{_sbindir}/texlive.post
 
 %postun
     if [ $1 -eq 0 ]; then
-	%_texmf_mktexlsr_post
+	%{_sbindir}/texlive.post
     fi
 
 #-----------------------------------------------------------------------
@@ -67,7 +57,6 @@ of biblatex v1.4 and biber v0.9 (at least).
 %doc %{_texmfdistdir}/doc/latex/biblatex-apa/biblatex-apa-test.tex
 %doc %{_texmfdistdir}/doc/latex/biblatex-apa/biblatex-apa.pdf
 %doc %{_texmfdistdir}/doc/latex/biblatex-apa/biblatex-apa.tex
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -78,5 +67,3 @@ of biblatex v1.4 and biber v0.9 (at least).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
