@@ -70,3 +70,46 @@ of biblatex v1.4 and biber v0.9 (at least).
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Tue Aug 07 2012 Paulo Andrade <pcpa@mandriva.com.br> 5.0-1
++ Revision: 811974
+- Update to latest release.
+
+* Mon Jun 11 2012 Paulo Andrade <pcpa@mandriva.com.br> 4.7-1
++ Revision: 804491
+- Update to latest release.
+
+* Thu Feb 23 2012 Paulo Andrade <pcpa@mandriva.com.br> 4.6-1
++ Revision: 779417
+- Update to latest release.
+
+* Wed Feb 08 2012 Paulo Andrade <pcpa@mandriva.com.br> 4.5-1
++ Revision: 772025
+- Update to latest release.
+
+* Tue Jan 31 2012 Paulo Andrade <pcpa@mandriva.com.br> 4.4-1
++ Revision: 770111
+- Update to latest upstream package
+
+* Tue Jan 03 2012 Paulo Andrade <pcpa@mandriva.com.br> 4.2-2
++ Revision: 749607
+- Rebuild to reduce used resources
+
+* Tue Nov 22 2011 Paulo Andrade <pcpa@mandriva.com.br> 4.2-1
++ Revision: 732499
+- texlive-biblatex-apa
+
+* Thu Nov 10 2011 Paulo Andrade <pcpa@mandriva.com.br> 4.1-1
++ Revision: 729626
+- biblatex-apa
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 4.0-1
++ Revision: 717921
+- texlive-biblatex-apa
+- texlive-biblatex-apa
+- texlive-biblatex-apa
+- texlive-biblatex-apa
+- texlive-biblatex-apa
+
