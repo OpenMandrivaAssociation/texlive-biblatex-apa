@@ -1,11 +1,11 @@
-# revision 31250
+# revision 32045
 # category Package
 # catalog-ctan /macros/latex/contrib/biblatex-contrib/biblatex-apa
-# catalog-date 2013-07-20 10:36:56 +0200
+# catalog-date 2013-10-31 08:18:44 +0100
 # catalog-license lppl
-# catalog-version 6.1
+# catalog-version 6.4
 Name:		texlive-biblatex-apa
-Version:	6.1
+Version:	6.4
 Release:	1
 Summary:	Biblatex citation and reference style for APA
 Group:		Publishing
@@ -48,6 +48,7 @@ of biblatex v2.0 and biber v1.0 (at least).
 %{_texmfdistdir}/tex/latex/biblatex-apa/brazilian-apa.lbx
 %{_texmfdistdir}/tex/latex/biblatex-apa/british-apa.lbx
 %{_texmfdistdir}/tex/latex/biblatex-apa/dutch-apa.lbx
+%{_texmfdistdir}/tex/latex/biblatex-apa/english-apa.lbx
 %{_texmfdistdir}/tex/latex/biblatex-apa/french-apa.lbx
 %{_texmfdistdir}/tex/latex/biblatex-apa/german-apa.lbx
 %{_texmfdistdir}/tex/latex/biblatex-apa/greek-apa.lbx
