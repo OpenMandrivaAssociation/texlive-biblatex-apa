@@ -6,7 +6,7 @@
 # catalog-version 6.4
 Name:		texlive-biblatex-apa
 Version:	6.4
-Release:	2
+Release:	3
 Summary:	Biblatex citation and reference style for APA
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/biblatex-contrib/biblatex-apa
