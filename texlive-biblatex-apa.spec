@@ -1,12 +1,12 @@
-# revision 32045
+# revision 33482
 # category Package
 # catalog-ctan /macros/latex/contrib/biblatex-contrib/biblatex-apa
-# catalog-date 2013-10-31 08:18:44 +0100
+# catalog-date 2014-04-17 05:56:09 +0200
 # catalog-license lppl
-# catalog-version 6.4
+# catalog-version 6.5
 Name:		texlive-biblatex-apa
-Version:	6.4
-Release:	6
+Version:	6.5
+Release:	1
 Summary:	Biblatex citation and reference style for APA
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/biblatex-contrib/biblatex-apa
@@ -58,6 +58,7 @@ of biblatex v2.0 and biber v1.0 (at least).
 %{_texmfdistdir}/tex/latex/biblatex-apa/norsk-apa.lbx
 %{_texmfdistdir}/tex/latex/biblatex-apa/norwegian-apa.lbx
 %{_texmfdistdir}/tex/latex/biblatex-apa/nynorsk-apa.lbx
+%{_texmfdistdir}/tex/latex/biblatex-apa/slovene-apa.lbx
 %{_texmfdistdir}/tex/latex/biblatex-apa/spanish-apa.lbx
 %{_texmfdistdir}/tex/latex/biblatex-apa/swedish-apa.lbx
 %doc %{_texmfdistdir}/doc/latex/biblatex-apa/README
@@ -67,6 +68,7 @@ of biblatex v2.0 and biber v1.0 (at least).
 %doc %{_texmfdistdir}/doc/latex/biblatex-apa/biblatex-apa-test.tex
 %doc %{_texmfdistdir}/doc/latex/biblatex-apa/biblatex-apa.pdf
 %doc %{_texmfdistdir}/doc/latex/biblatex-apa/biblatex-apa.tex
+%doc %{_texmfdistdir}/doc/latex/biblatex-apa/reference.pdf
 
 #-----------------------------------------------------------------------
 %prep
