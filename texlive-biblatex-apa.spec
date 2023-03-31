@@ -1,6 +1,6 @@
 Name:		texlive-biblatex-apa
 Version:	63719
-Release:	1
+Release:	2
 Summary:	Biblatex citation and reference style for APA
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/biblatex-contrib/biblatex-apa
