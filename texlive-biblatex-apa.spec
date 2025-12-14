@@ -1,5 +1,5 @@
 Name:		texlive-biblatex-apa
-Version:	66605
+Version:	76158
 Release:	1
 Summary:	Biblatex citation and reference style for APA
 Group:		Publishing
